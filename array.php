@@ -148,3 +148,9 @@ echo "</pre>";
 echo "<pre>";
 var_dump(array_values($persons));
 echo "</pre>";
+
+// sorting associative array
+asort($persons);
+echo "<pre>";
+var_dump($persons);
+echo "</pre>";
